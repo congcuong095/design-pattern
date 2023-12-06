@@ -1,11 +1,11 @@
 ﻿namespace Singleton
 {
 
-  class Program
-  {
-    static void Main(string[] args)
+    class Program
     {
-      MySingleton.GetInstance().SayHi();
+        static void Main(string[] args)
+        {
+            MySingleton.GetInstance().SayHi();
+        }
     }
-  }
 }
