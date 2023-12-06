@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Creational\Sin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Creational\Builder\Builder.csproj", "{0896BBE2-1F7C-40C2-9B97-AE92F7224FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{F5CE90E1-136F-4554-819B-E641631429C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Creational\Factory\Factory.csproj", "{A0220C8B-89E5-4C43-924E-02788B2CECE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{0896BBE2-1F7C-40C2-9B97-AE92F7224FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0896BBE2-1F7C-40C2-9B97-AE92F7224FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0896BBE2-1F7C-40C2-9B97-AE92F7224FEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5CE90E1-136F-4554-819B-E641631429C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5CE90E1-136F-4554-819B-E641631429C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5CE90E1-136F-4554-819B-E641631429C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5CE90E1-136F-4554-819B-E641631429C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0220C8B-89E5-4C43-924E-02788B2CECE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0220C8B-89E5-4C43-924E-02788B2CECE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0220C8B-89E5-4C43-924E-02788B2CECE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0220C8B-89E5-4C43-924E-02788B2CECE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1AE8530D-3A34-454B-9B84-5143DA2C075C} = {A077A03B-5E3E-4B21-BBE8-FD8CC19C8C6D}
 		{0896BBE2-1F7C-40C2-9B97-AE92F7224FEA} = {A077A03B-5E3E-4B21-BBE8-FD8CC19C8C6D}
-		{F5CE90E1-136F-4554-819B-E641631429C7} = {A077A03B-5E3E-4B21-BBE8-FD8CC19C8C6D}
+		{A0220C8B-89E5-4C43-924E-02788B2CECE0} = {A077A03B-5E3E-4B21-BBE8-FD8CC19C8C6D}
 	EndGlobalSection
 EndGlobal
