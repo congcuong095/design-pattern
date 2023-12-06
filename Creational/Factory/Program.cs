@@ -1,4 +1,9 @@
-﻿using Factory.Fatory;
+﻿using Factory.AbstractFactory;
+using Factory.Fatory;
+
+//Using Factory Method Pattern
+//IAnimalFactory factory1 = new BasicAnimalFactory();
+//IAnimalFactory factory2 = new RandomAnimalFactory();
 
 IAnimalFactory factory;
 Random random = new();
@@ -6,11 +11,11 @@ int index = random.Next(0, 2);
 
 if (index == 0)
 {
-    factory = new BasicAnimalFactory();
+    factory = new FourLegsAnimalFactory();
 }
 else
 {
-    factory = new RandomAnimalFactory();
+    factory = new TwoLegsAnimalFactory();
 }
 
 
