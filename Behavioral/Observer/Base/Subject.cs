@@ -10,9 +10,9 @@ namespace ObserverPattern.Base
     {
         private List<Observer> observers = new List<Observer>();
 
-        public void Attach(Observer observer)
+        public void Attach(Observer ob)
         {
-            observers.Add(observer);
+            observers.Add(ob);
         }
 
         public void Dettach(Observer observer)
